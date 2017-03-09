@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "splasher",
+  "version": "0.1.0",
+  "description": "splash-screen web resource loader",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tobias Wawryniuk",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-newer": "^1.2.0"
+  }
+}

@@ -1,0 +1,39 @@
+* { margin:0; }
+body { font: 200 16px/1 sans-serif; }
+img { width:32.2%; }
+
+#overlay {
+    position:fixed;
+    z-index:9999;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    color:#000;
+    background-color: rgb(255,255,255);
+    opacity: 1;
+    transition: 0.3s 0.3s;
+}
+#overlay div {
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    font-family: sans-serif;
+    line-height: 1.42857;
+    box-sizing: border-box;
+}
+#progress {
+  height:2px;
+  background-color:#000;
+  width:0;                /* will be increased by JS */
+}
+#progstat {
+    font-size: 14pt;
+    letter-spacing: 3pt;
+    margin-top:-40px;
+}
+#progdetail {
+    font-size: 8pt;
+    margin-top: 16px;
+}
